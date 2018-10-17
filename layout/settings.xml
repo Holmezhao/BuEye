@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="SETTINGS"
+            android:textColor="@android:color/background_light"
+            android:textSize="40dp" />
+
+        <ImageButton
+            android:id="@+id/savesettings"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ok"
+            android:background="@drawable/buttonform1"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/darker_gray" >
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="USER SETTINGS"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Sound on/off"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/soundswitch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttonform3"
+            android:src="@drawable/switch_on" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="Right hand mode"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/righthandswitch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttonform3"
+            android:src="@drawable/switch_off" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/darker_gray" >
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="CONNECTION SETTINGS"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/wifiText"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="WiFi"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/wifiswitch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttonform3"
+            android:src="@drawable/switch_link" />
+        
+        <TextView
+            android:id="@+id/ConnStateWifi"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:text="not connected"
+            android:textColor="@android:color/holo_blue_dark" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/BluetoothText"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Bluetooth"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/btswitch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttonform3"
+            android:src="@drawable/switch_link" />
+
+        <TextView
+            android:id="@+id/ConnState"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:text="not connected"
+            android:textColor="@android:color/holo_blue_dark" />
+    </RelativeLayout>
+
+</LinearLayout>

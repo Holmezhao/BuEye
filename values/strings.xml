@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BuEye</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_hint">connecting&#8230;</string>
+    <string name="start_wifi">请开启wifi</string>
+    <string name="connect_failed">自动连接失败，请手动连接</string>
+    <string name="take_picture">拍照</string>
+    <string name="record_video">录像</string>
+    <string name="pictures">照片</string>
+    <string name="fullscreen">全屏</string>
+    <string name="standard">标准</string>
+    <string name="setting">设置</string>
+    <string name="exit_title">MJPEG视频流</string>
+    <string name="exit_hint">确定要退出？</string>
+    <string name="exit_btn_yes">是</string>
+    <string name="exit_btn_no">否</string>
+    <string name="ip">Ip:</string>
+    <string name="port">Port:</string>
+    <string name="ip_hint">请输入Ip地址</string>
+    <string name="port_hint">端口1000到65535</string>
+    <string name="connect">链接</string>
+    
+    <string name="no_permission">没有权限</string>
+    
+    <string name="none_paired">没有设备配对成功</string>
+    <string name="scannning">寻找设备中...</string>
+    <string name="select_device">选择要连接的设备</string>
+    <string name="none_found">没有找到设备</string>
+	<string name="title_paired_devices">已配对设备</string>
+	<string name="title_other_devices">其他可连接设备</string>
+	<string name="button_scan">寻找其他设备</string>
+	
+	<!--  BluetoothJoystick -->
+    <string name="title_connected_to">connected to:</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth JoyStick.</string>
+    <string name="not_connected">You are not connected to a device</string>
+    
+
+</resources>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medialayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg4" >
+    
+    <ImageView 
+        android:layout_width="600dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/mediabg"/>
+
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonform1"
+        android:src="@drawable/back_icon" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" 
+        android:layout_below="@id/back1"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/photos"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/videos"
+            android:layout_marginLeft="207dp"
+            android:background="@drawable/buttonform1"
+            android:src="@drawable/photos_2x" />
+
+        <ImageButton
+            android:id="@+id/videos"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/photos"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="77dp"
+            android:background="@drawable/buttonform1"
+            android:src="@drawable/video2_2x" />
+
+        <TextView
+            android:id="@+id/photocount"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/photos"
+            android:layout_below="@+id/photos"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/videocount"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/photocount"
+            android:layout_alignBottom="@+id/photocount"
+            android:layout_alignLeft="@+id/videos"
+            android:layout_marginLeft="14dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
